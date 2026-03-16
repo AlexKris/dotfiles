@@ -1,2 +1,3 @@
 patch:
   menu/page_size: 8
+  "switches/@0/reset": 1
