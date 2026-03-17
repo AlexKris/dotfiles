@@ -18,6 +18,7 @@ fi
 
 # 复制自定义配置
 cp "$SCRIPT_DIR/default.custom.yaml" "$RIME_DIR/default.custom.yaml"
+cp "$SCRIPT_DIR/rime_ice.custom.yaml" "$RIME_DIR/rime_ice.custom.yaml"
 cp "$SCRIPT_DIR/squirrel.custom.yaml" "$RIME_DIR/squirrel.custom.yaml"
 
 echo "Rime 自定义配置已复制到 $RIME_DIR"
