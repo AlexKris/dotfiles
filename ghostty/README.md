@@ -22,10 +22,10 @@ bash install.sh
 | 主题 | `theme = Catppuccin Mocha` | 深色主题 |
 | 窗口 | `window-width = 120` / `window-height = 36` / `window-save-state = always` | 适配 100/120 字符行宽，重启恢复会话 |
 | 内边距 | `window-padding-x/y = 8/4` + `padding-balance` | 文本不贴边、缩放时四边均衡 |
-| macOS | `macos-titlebar-style = tabs` / `macos-option-as-alt = true` | 标签合并到标题栏；Option→Alt 支持 zsh/vim 词跳转 |
+| macOS | `macos-titlebar-style = native` / `macos-option-as-alt = true` | 使用 macOS 原生标签栏，多 tab 时点击区域更大；Option→Alt 支持 zsh/vim 词跳转 |
 | 渲染 | `scrollback-limit = 100000` / `cursor-style = block` (闪烁) | 10 万行回滚、块状闪烁光标 |
 | 交互 | `copy-on-select = clipboard` / `confirm-close-surface = false` / `clipboard-paste-protection = true` | 选中即复制；关分屏不弹窗；粘贴含控制字符仍确认 |
-| 工作目录 | `window-inherit-working-directory = true` | 新标签/分屏继承当前目录 |
+| 工作目录 | `window-inherit-working-directory = false` | 新窗口（Cmd+N）从默认目录启动；新 tab / 分屏仍继承当前目录（`tab-/split-inherit-working-directory` 默认 `true`） |
 | 键位 | `shift+enter` → `ESC + CR` | 适配 Claude Code 等的多行输入 |
 
 ## 重载
